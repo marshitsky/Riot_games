@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: "Druk Wide";
+  src: url(../fonts/Druk\ Wide\ Medium.otf);
+}
+body {
+  position: relative;
+  font-family: "Montserrat", serif;
+  background: #FFFFFF;
+  width: 3099px;
+  height: 2323px;
+  margin: auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+a, button {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.flexBet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexCent, .card:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexAr {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flexEven, .cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flexStart, .card:not(:last-child) {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.mainDots {
+  position: absolute;
+  background: #1F2326;
+  opacity: 0.5;
+  border: 0;
+}
+
+.agent {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: "Druk Wide", serif;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: transparent;
+  -webkit-text-stroke: 2px #FFFFFF;
+}
+
+.country {
+  font-family: "Druk Wide", serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.1em;
+  color: #FF4656;
+}
+
+.cards {
+  position: absolute;
+  width: 2665px;
+  height: 248px;
+  top: 1397px;
+  left: -124px;
+}
+
+.card {
+  height: 248px;
+  background: #F8F8F8;
+  border: 2px solid #000000;
+}
+
+.card:not(:last-child) {
+  width: 724px;
+  clip-path: polygon(3% 0, 100% 0, 100% 100%, 0 100%, 0 6%);
+}
+
+.card:last-child {
+  width: 219px;
+  clip-path: polygon(8% 0, 100% 0, 100% 100%, 0 100%, 0 6%);
+}
+
+.card .text {
+  width: 49%;
+  padding: 0 43px 0 58px;
+}
+
+.card .text h2 {
+  font-family: "Druk Wide", serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 52px;
+  color: #C4C4C4;
+}
+
+.card .text h3 {
+  font-family: "Druk Wide", serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000000;
+  padding: 32px 0;
+}
+
+.card .text article {
+  font-family: "Montserrat";
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  color: #1F2326;
+}
+
+.card .images {
+  position: relative;
+}
+
+.card .images img {
+  position: absolute;
+  top: -92px;
+  right: -177px;
+  z-index: 999;
+}
+
+.card .images div {
+  position: absolute;
+  top: -57px;
+  right: -141px;
+  width: 190px;
+  height: 183px;
+  background: #FF4656;
+}
+
+/*# sourceMappingURL=cards.css.map */

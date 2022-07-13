@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: "Druk Wide";
+  src: url(../fonts/Druk\ Wide\ Medium.otf);
+}
+body {
+  position: relative;
+  font-family: "Montserrat", serif;
+  background: #FFFFFF;
+  width: 3099px;
+  height: 2323px;
+  margin: auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+a, button {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.flexBet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexCent, .main_page_center .d9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexAr, .character .abilities {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flexEven, .agents_char {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flexStart, .name_country {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.mainDots, .main_page_center .d19, .main_page_center .d18, .main_page_center .d17, .main_page_center .d16, .main_page_center .d15, .main_page_center .d14, .main_page_center .d13, .main_page_center .d12, .main_page_center .d11, .main_page_center .d10, .main_page_center .d9, .main_page_center .d8, .main_page_center .d7, .main_page_center .d6, .main_page_center .d5, .main_page_center .d4, .main_page_center .d3, .main_page_center .d2, .main_page_center .d1 {
+  position: absolute;
+  background: #1F2326;
+  opacity: 0.5;
+  border: 0;
+}
+
+.agent, span.name_sage, .name_country span.name, .agents_title span {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: "Druk Wide", serif;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: transparent;
+  -webkit-text-stroke: 2px #FFFFFF;
+}
+
+.country, .name_country span.count {
+  font-family: "Druk Wide", serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.1em;
+  color: #FF4656;
+}
+
+.main_page_center {
+  position: relative;
+  top: 122px;
+  width: 2663px;
+  height: 1499px;
+  background: url(../img/main_page/main_page_center/background.png);
+  overflow: visible;
+}
+
+.main_page_center .d1 {
+  width: 8px;
+  height: 8px;
+  left: 389px;
+  top: 90px;
+}
+
+.main_page_center .d2 {
+  width: 8px;
+  height: 8px;
+  left: 421px;
+  top: 90px;
+}
+
+.main_page_center .d3 {
+  width: 40px;
+  height: 40px;
+  left: 831px;
+  top: 90px;
+}
+
+.main_page_center .d4 {
+  width: 232px;
+  height: 8px;
+  left: 1938px;
+  top: 73px;
+}
+
+.main_page_center .d5 {
+  width: 24px;
+  height: 8px;
+  left: 1528px;
+  top: 189px;
+}
+
+.main_page_center .d6 {
+  width: 8px;
+  height: 8px;
+  left: 1557px;
+  top: 313px;
+}
+
+.main_page_center .d7 {
+  width: 40px;
+  height: 8px;
+  left: 102px;
+  top: 189px;
+}
+
+.main_page_center .d8 {
+  width: 8px;
+  height: 8px;
+  left: 102px;
+  top: 437px;
+}
+
+.main_page_center .d9 {
+  width: 80px;
+  height: 80px;
+  left: 100px;
+  top: 1017px;
+}
+
+.main_page_center .d10 {
+  width: 80px;
+  height: 8px;
+  left: 100px;
+  top: 1108px;
+}
+
+.main_page_center .d11 {
+  width: 232px;
+  height: 8px;
+  left: 102px;
+  top: 1175px;
+}
+
+.main_page_center .d12 {
+  width: 40px;
+  height: 40px;
+  left: 969px;
+  top: 1051px;
+}
+
+.main_page_center .d13 {
+  width: 80px;
+  height: 8px;
+  left: 1485px;
+  top: 836px;
+}
+
+.main_page_center .d14 {
+  width: 8px;
+  height: 8px;
+  left: 1557px;
+  top: 960px;
+}
+
+.main_page_center .d15 {
+  width: 40px;
+  height: 40px;
+  left: 2103px;
+  top: 389px;
+}
+
+.main_page_center .d16 {
+  width: 61px;
+  height: 8px;
+  left: 2225px;
+  top: 712px;
+}
+
+.main_page_center .d17 {
+  width: 8px;
+  height: 8px;
+  left: 2256px;
+  top: 1175px;
+}
+
+.main_page_center .d18 {
+  width: 8px;
+  height: 8px;
+  left: 2288px;
+  top: 1175px;
+}
+
+.main_page_center .d19 {
+  width: 40px;
+  height: 40px;
+  left: 2570px;
+  top: 1126px;
+}
+
+.agents_title {
+  position: absolute;
+  left: -223px;
+  top: 533px;
+  transform: rotate(90deg);
+  margin-right: 68px;
+}
+
+.agents_title span {
+  font-size: 156px;
+  line-height: 204px;
+}
+
+.agents_char {
+  width: 2264px;
+  height: 1025px;
+  padding: 100px 0 0 460px;
+  overflow: visible;
+}
+
+.character {
+  position: relative;
+  width: 440px;
+  height: 990px;
+  background: #1F2326;
+  overflow: visible;
+  border: 2px solid #1F2326;
+}
+
+.character:last-child {
+  background: #FFFFFF;
+}
+
+.character:not(:last-child) {
+  margin-right: 123px;
+}
+
+.name_country {
+  flex-direction: row;
+  overflow: visible;
+}
+
+.name_country span.name {
+  position: absolute;
+  transform: rotate(90deg);
+  font-size: 72px;
+  line-height: 94px;
+  z-index: 7;
+}
+
+.name_country span.count {
+  position: absolute;
+  transform: rotate(90deg);
+  font-size: 24px;
+  line-height: 31px;
+}
+
+span.name_sage {
+  position: absolute;
+  transform: rotate(90deg);
+  font-size: 72px;
+  line-height: 94px;
+  z-index: 7;
+  -webkit-text-stroke: 2px #000000;
+}
+
+.character .abilities {
+  position: absolute;
+  top: 905px;
+  left: 41px;
+  width: 440px;
+  height: 110px;
+  background: #1F2326;
+  border: 2px solid #F8F8F8;
+}
+
+.ch4 .abilities {
+  background: #F8F8F8;
+  border: 2px solid #1F2326;
+}
+
+/*# sourceMappingURL=main_page_center.css.map */

@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  position: relative;
+  font-family: "Montserrat", serif;
+  background: #FFFFFF;
+  width: 3099px;
+  height: 2323px;
+  margin: auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+a, button {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.flexBet, .nav_left__arrow,
+.nav_right__arrow, .main_page_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexCent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexAr, .nav_right, .nav_left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mainDots {
+  position: absolute;
+  color: #1F2326;
+  opacity: 1;
+  border: 0;
+}
+
+.main_page {
+  background-color: #FF4656;
+  position: absolute;
+  width: 2663px;
+  height: 1716px;
+  left: 220px;
+  top: 303px;
+  border-radius: 32px;
+}
+
+.main_page_nav {
+  position: absolute;
+  width: 2663px;
+  height: 132px;
+  background: #1F2326;
+  color: #FFFFFF;
+  border-radius: 32px;
+  z-index: 1;
+}
+
+.nav_left {
+  width: 1594px;
+  padding-left: 73px;
+}
+
+.nav_right {
+  width: 169px;
+  padding-right: 72px;
+}
+
+.nav_left__arrow span,
+.nav_right__arrow span {
+  padding-right: 17px;
+}
+
+.nav_right span {
+  padding-left: 18px;
+}
+
+/*# sourceMappingURL=main_page.css.map */

@@ -1,0 +1,142 @@
+@import 'base.scss';
+
+.main_page_center {
+    // position: absolute;
+    position: relative;
+    top: 122px;
+    width: 2663px;
+    height: 1499px;
+    background: url(../img/main_page/main_page_center/background.png);
+    overflow: visible;
+}
+
+.main_page_center .d1 {width: 8px;  height: 8px; left: 389px; top: 90px; @extend .mainDots;
+}
+.main_page_center .d2 {width: 8px;  height: 8px; left: 421px; top: 90px; @extend .mainDots;
+}
+.main_page_center .d3 {width: 40px;  height: 40px; left: 831px; top: 90px; @extend .mainDots;
+}
+.main_page_center .d4 {width: 232px;  height: 8px; left: 1938px; top: 73px; @extend .mainDots;
+}
+.main_page_center .d5 {width: 24px;  height: 8px; left: 1528px; top: 189px; @extend .mainDots;
+}
+.main_page_center .d6 {width: 8px;  height: 8px; left: 1557px; top: 313px; @extend .mainDots;
+}
+.main_page_center .d7 {width: 40px;  height: 8px; left: 102px; top: 189px; @extend .mainDots;
+}
+.main_page_center .d8 {width: 8px;  height: 8px; left: 102px; top: 437px; @extend .mainDots;
+}
+.main_page_center .d9 {width: 80px;  height: 80px; left: 100px; top: 1017px; @extend .mainDots; @extend .flexCent;
+}
+.main_page_center .d10 {width: 80px;  height: 8px; left: 100px; top: 1108px; @extend .mainDots;
+}
+.main_page_center .d11 {width: 232px;  height: 8px; left: 102px; top: 1175px; @extend .mainDots;
+}
+.main_page_center .d12 {width: 40px;  height: 40px; left: 969px; top: 1051px; @extend .mainDots;
+}
+.main_page_center .d13 {width: 80px;  height: 8px; left: 1485px; top: 836px; @extend .mainDots;
+}
+.main_page_center .d14 {width: 8px;  height: 8px; left: 1557px; top: 960px; @extend .mainDots;
+}
+.main_page_center .d15 {width: 40px;  height: 40px; left: 2103px; top: 389px; @extend .mainDots;
+}
+.main_page_center .d16 {width: 61px;  height: 8px; left: 2225px; top: 712px; @extend .mainDots;
+}
+.main_page_center .d17 {width: 8px;  height: 8px; left: 2256px; top: 1175px; @extend .mainDots;
+}
+.main_page_center .d18 {width: 8px;  height: 8px; left: 2288px; top: 1175px; @extend .mainDots;
+}
+.main_page_center .d19 {width: 40px;  height: 40px; left: 2570px; top: 1126px; @extend .mainDots;
+}
+
+
+.agents_title {
+    position: absolute;
+    left: -223px;
+    top: 533px;
+    transform: rotate(90deg);
+    margin-right: 68px;
+}
+
+.agents_title span {
+    font-size: 156px;
+    line-height: 204px;
+    @extend .agent;
+}
+
+
+
+.agents_char {
+    width: 2264px;
+    height: 1025px;
+    @extend .flexEven;
+    padding: 100px 0 0 460px;
+    overflow: visible;
+}
+
+.character {
+    position: relative;
+    width: 440px;
+    height: 990px;
+    background: #1F2326;
+    overflow: visible;
+    border: 2px solid #1F2326;
+}
+
+.character:last-child {
+    background: #FFFFFF;
+}
+
+.character:not(:last-child) {
+    margin-right: 123px;
+}
+
+.name_country {
+    @extend .flexStart;
+    flex-direction: row;
+    overflow: visible;
+}
+
+.name_country span.name {
+    position: absolute;
+    transform: rotate(90deg);
+    @extend .agent;
+    font-size: 72px;
+    line-height: 94px;
+    z-index: 7;
+}
+
+.name_country span.count {
+    position: absolute;
+    transform: rotate(90deg);
+    @extend .country;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+span.name_sage {
+    position: absolute;
+    transform: rotate(90deg);
+    @extend .agent;
+    font-size: 72px;
+    line-height: 94px;
+    z-index: 7;
+    -webkit-text-stroke: 2px #000000;
+}
+
+.character .abilities {
+    @extend .flexAr;
+    position: absolute;
+    top: 905px;
+    left: 41px;
+    width: 440px;
+    height: 110px;
+    background: #1F2326;
+    border: 2px solid #F8F8F8;
+}
+
+.ch4 .abilities {
+    background: #F8F8F8;
+    border: 2px solid #1F2326;
+}
+

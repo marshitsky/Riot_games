@@ -1,0 +1,71 @@
+.background {
+  position: relative;
+  width: 3099px;
+  height: 2323px;
+  background: #1F2326;
+  margin: 100px auto;
+  overflow: hidden;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.background .c1 {
+  width: 2215px;
+  height: 2216px;
+  left: -385px;
+  top: -711px;
+  background: #FF4656;
+}
+
+.background .c2 {
+  width: 44px;
+  height: 44px;
+  left: 2836px;
+  top: 74px;
+  background: #FF4656;
+}
+
+.background .c3 {
+  width: 268px;
+  height: 269px;
+  left: 2727px;
+  top: 182px;
+  background: #FFFFFF;
+}
+
+.background .c4 {
+  width: 98px;
+  height: 98px;
+  left: 2946px;
+  top: 475px;
+  background: #505155;
+}
+
+.background .c5 {
+  width: 1443px;
+  height: 1443px;
+  left: 2018px;
+  top: 1392px;
+  background: #292C31;
+}
+
+.background .c6 {
+  width: 470px;
+  height: 470px;
+  left: 177px;
+  top: 2114px;
+  background: #EFEFEF;
+}
+
+.background .c7 {
+  width: 63px;
+  height: 63px;
+  left: 112px;
+  top: 2082px;
+  background: #505155;
+}
+
+/*# sourceMappingURL=bg.css.map */

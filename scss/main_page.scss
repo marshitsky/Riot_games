@@ -1,0 +1,51 @@
+@import 'base.scss';
+
+.main_page {
+    position: relative;
+    background-color: #FF4656;
+    position: absolute;
+    width: 2663px;
+    height: 1716px;
+    left: 220px;
+    top: 303px;
+    border-radius: 32px;
+}
+
+.main_page_nav {
+    position: absolute;
+    @extend .flexBet;
+    width: 2663px;
+    height: 132px;
+    background: #1F2326;
+    color: #FFFFFF;
+    border-radius: 32px;
+    z-index: 1;
+}
+
+.nav_left {
+    @extend .flexAr;
+    width: 1594px;
+    padding-left: 73px;
+}
+
+
+.nav_right {
+    @extend .flexAr;
+    width: 169px;
+    padding-right: 72px;
+}
+
+.nav_left__arrow,
+.nav_right__arrow {
+    @extend .flexBet;
+}
+
+.nav_left__arrow span,
+.nav_right__arrow span {
+    padding-right: 17px;
+}
+
+
+.nav_right span {
+    padding-left: 18px;
+}
